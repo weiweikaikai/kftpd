@@ -1,0 +1,277 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Allocate	memory_pool.c	/^void *Allocate(size_t n)$/;"	f
+Allocate_1	memory_pool.c	/^static void* Allocate_1(size_t n)$/;"	f	file:
+BIN	Makefile	/^BIN=kftp$/;"	m
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS= -g #-Wall$/;"	m
+ChunkAlloc	memory_pool.c	/^static char*ChunkAlloc(size_t size, int nobjs)$/;"	f	file:
+Deallocate	memory_pool.c	/^void Deallocate(void *p, size_t n)$/;"	f
+Deallocate_1	memory_pool.c	/^static void Deallocate_1(void *p,size_t n)$/;"	f	file:
+FTP_ABOR_NOCONN	reply_code.h	25;"	d
+FTP_BADCMD	reply_code.h	43;"	d
+FTP_BADSENDCONN	reply_code.h	40;"	d
+FTP_BADSENDFAILED	reply_code.h	41;"	d
+FTP_COMMANDNOTOMPL	reply_code.h	44;"	d
+FTP_CWDOK	reply_code.h	28;"	d
+FTP_DATACONN	reply_code.h	12;"	d
+FTP_DELETEOK	reply_code.h	29;"	d
+FTP_FEAT	reply_code.h	17;"	d
+FTP_FILEFAILD	reply_code.h	47;"	d
+FTP_GIVEPWORD	reply_code.h	33;"	d
+FTP_GOODBY	reply_code.h	23;"	d
+FTP_GREET	reply_code.h	22;"	d
+FTP_HELP	reply_code.h	20;"	d
+FTP_IDLE_TIMEOUT	reply_code.h	37;"	d
+FTP_LIGINERR	reply_code.h	46;"	d
+FTP_LOGINOK	reply_code.h	27;"	d
+FTP_NEEDRNFR	reply_code.h	45;"	d
+FTP_NOOPOK	reply_code.h	16;"	d
+FTP_PASVOK	reply_code.h	26;"	d
+FTP_PORTOK	reply_code.h	15;"	d
+FTP_PWDOK	reply_code.h	31;"	d
+FTP_RENAMEOK	reply_code.h	30;"	d
+FTP_RESTOK	reply_code.h	34;"	d
+FTP_RNFROK	reply_code.h	35;"	d
+FTP_SIZEOK	reply_code.h	19;"	d
+FTP_STATOK	reply_code.h	18;"	d
+FTP_SYSTOK	reply_code.h	21;"	d
+FTP_TOO_MANY_IP	reply_code.h	39;"	d
+FTP_TOO_MANY_USERS	reply_code.h	38;"	d
+FTP_TRANSFEROK	reply_code.h	24;"	d
+FTP_TYPEOK	reply_code.h	14;"	d
+FTP_UPLODEFAILED	reply_code.h	48;"	d
+FreeList_Index	memory_pool.c	/^static size_t FreeList_Index(size_t bytes)$/;"	f	file:
+GetTime	kftpd_log.c	/^void GetTime(char*timestr)$/;"	f
+LIB	Makefile	/^LIB=-lcrypt$/;"	m
+LOG_ALL	kftpd_log.h	18;"	d
+LOG_DEBUG	kftpd_log.h	17;"	d
+LOG_ERROR	kftpd_log.h	13;"	d
+LOG_FATAL	kftpd_log.h	12;"	d
+LOG_INFO	kftpd_log.h	15;"	d
+LOG_TRACE	kftpd_log.h	16;"	d
+LOG_WARN	kftpd_log.h	14;"	d
+Mapftp_cmd_t	parse_ftpproto.c	/^}Mapftp_cmd_t; $/;"	t	typeref:struct:Mapftpcmd	file:
+Mapftpcmd	parse_ftpproto.c	/^typedef struct Mapftpcmd$/;"	s	file:
+OBJS	Makefile	/^OBJS=memory_pool.o  kftpd_log.o string_operate.o config.o parse_config.o  session.o my_hash.o net_connect.o reply.o ipc.o parent_ipc.o parse_ftpproto.o kftpd.o$/;"	m
+Obj	memory_pool.c	/^typedef union Obj$/;"	u	file:
+Obj	memory_pool.c	/^}Obj;$/;"	t	typeref:union:Obj	file:
+OomMalloc	memory_pool.c	/^static void* OomMalloc(size_t n)$/;"	f	file:
+OomRealloc	memory_pool.c	/^static void* OomRealloc(void*p,size_t n)$/;"	f	file:
+PRIV_SOCK_GET_DATA_SOCK	ipc.h	22;"	d
+PRIV_SOCK_PASV_ACCEPT	ipc.h	26;"	d
+PRIV_SOCK_PASV_ACTIVE	ipc.h	24;"	d
+PRIV_SOCK_PASV_LISTEN	ipc.h	25;"	d
+PRIV_SOCK_RESULT_BAD	ipc.h	30;"	d
+PRIV_SOCK_RESULT_OK	ipc.h	29;"	d
+Reallocate	memory_pool.c	/^void *Reallocate(void *p, size_t old_sz,size_t new_sz)$/;"	f
+Reallocate_1	memory_pool.c	/^static void* Reallocate_1(void *p,size_t old_sz,size_t new_sz)$/;"	f	file:
+Refill	memory_pool.c	/^static void* Refill(size_t n)$/;"	f	file:
+Round_up	memory_pool.c	/^static size_t Round_up(size_t bytes)$/;"	f	file:
+_ALIGN	memory_pool.c	12;"	d	file:
+_COMM_H	comm.h	9;"	d
+_CONFIG_H	config.h	9;"	d
+_IPC_H	ipc.h	9;"	d
+_KFTPD_H	kftpd.h	9;"	d
+_KFTPD_LOG_H	kftpd_log.h	9;"	d
+_MAX_BYTES	memory_pool.c	13;"	d	file:
+_MEMORY_POOL_H	memory_pool.h	9;"	d
+_MY_HASH_H	my_hash.h	9;"	d
+_NET_CONNECT_H	net_connect.h	9;"	d
+_NFREELISTS	memory_pool.c	14;"	d	file:
+_PARENT_IPC_H	parent_ipc.h	9;"	d
+_PARSE_CONFIG_H	parse_config.h	9;"	d
+_PARSE_FTPPROTO_H	parse_ftpproto.h	9;"	d
+_REPLY_CODE_H	reply_code.h	9;"	d
+_REPLY_H	reply.h	9;"	d
+_SESSION_H	session.h	9;"	d
+_STRING_OPERATE_H	string_operate.h	9;"	d
+abor_recived	session.h	/^    int abor_recived;$/;"	m	struct:session
+accept_timeout	net_connect.c	/^int accept_timeout(int fd,struct sockaddr_in *addr,unsigned int wait_seconds)$/;"	f
+activate_nonblock	net_connect.c	/^void activate_nonblock(int fd) $/;"	f
+active_oobinline	reply.c	/^void active_oobinline(int fd)$/;"	f
+active_sigurg	reply.c	/^void active_sigurg(int fd)$/;"	f
+arg	session.h	/^    char arg[128];\/\/参数$/;"	m	struct:session
+begin_session	session.c	/^void begin_session(session_t *sess)$/;"	f
+buckets	my_hash.c	/^    unsigned int buckets; \/\/桶的个数$/;"	m	struct:hash	file:
+check_limit_numofclient	reply.c	/^void check_limit_numofclient(session_t *sess)$/;"	f
+child_fd	session.h	/^    int child_fd;$/;"	m	struct:session
+clientData	memory_pool.c	/^    char clientData[1];    \/\/数据$/;"	m	union:Obj	file:
+cmd	parse_ftpproto.c	/^    const char*cmd;$/;"	m	struct:Mapftpcmd	file:
+cmd	session.h	/^    char cmd[32];\/\/命令行$/;"	m	struct:session
+cmd_func	parse_ftpproto.c	/^    void (*cmd_func)(session_t *sess);$/;"	m	struct:Mapftpcmd	file:
+cmd_function	parse_ftpproto.c	/^static Mapftp_cmd_t cmd_function[]={$/;"	v	file:
+cmdline	session.h	/^    char cmdline[512]; \/\/命令行$/;"	m	struct:session
+connect_timeout	net_connect.c	/^int connect_timeout(int fd,struct sockaddr_in *addr,unsigned int wait_seconds)$/;"	f
+ctrl_fd	session.h	/^    int ctrl_fd; $/;"	m	struct:session
+curr_time	reply.c	/^static struct timeval curr_time;$/;"	v	typeref:struct:timeval	file:
+datasock	session.h	/^    int datasock;$/;"	m	struct:session
+deactivate_nonblock	net_connect.c	/^void deactivate_nonblock(int fd)$/;"	f
+do_abor	parse_ftpproto.c	/^static void do_abor(session_t *sess)$/;"	f	file:
+do_appe	parse_ftpproto.c	/^static void do_appe(session_t *sess)$/;"	f	file:
+do_cdup	parse_ftpproto.c	/^static void do_cdup(session_t *sess) \/\/返回上层目录$/;"	f	file:
+do_cwd	parse_ftpproto.c	/^static void do_cwd(session_t *sess) \/\/更改目录$/;"	f	file:
+do_dele	parse_ftpproto.c	/^static void do_dele(session_t *sess) \/\/删除文件$/;"	f	file:
+do_feat	parse_ftpproto.c	/^static void do_feat(session_t *sess)$/;"	f	file:
+do_help	parse_ftpproto.c	/^static void do_help(session_t *sess)$/;"	f	file:
+do_list	parse_ftpproto.c	/^static void do_list(session_t *sess)$/;"	f	file:
+do_mkd	parse_ftpproto.c	/^static void do_mkd(session_t *sess)$/;"	f	file:
+do_mode	parse_ftpproto.c	/^static void do_mode(session_t *sess){}$/;"	f	file:
+do_nlst	parse_ftpproto.c	/^static void do_nlst(session_t *sess){} \/\/不实现$/;"	f	file:
+do_noop	parse_ftpproto.c	/^static void do_noop(session_t *sess) \/\/防止空闲断开$/;"	f	file:
+do_pass	parse_ftpproto.c	/^static void do_pass(session_t *sess)$/;"	f	file:
+do_pasv	parse_ftpproto.c	/^static void do_pasv(session_t *sess)$/;"	f	file:
+do_port	parse_ftpproto.c	/^static void do_port(session_t *sess)$/;"	f	file:
+do_pwd	parse_ftpproto.c	/^static void do_pwd(session_t *sess)$/;"	f	file:
+do_quit	parse_ftpproto.c	/^static void do_quit(session_t *sess)$/;"	f	file:
+do_rest	parse_ftpproto.c	/^static void do_rest(session_t *sess) \/\/和断点续传有关系$/;"	f	file:
+do_retr	parse_ftpproto.c	/^static void do_retr(session_t *sess)$/;"	f	file:
+do_rmd	parse_ftpproto.c	/^static void do_rmd(session_t *sess) \/\/删除文件夹$/;"	f	file:
+do_rnfr	parse_ftpproto.c	/^static void do_rnfr(session_t *sess)$/;"	f	file:
+do_rnto	parse_ftpproto.c	/^static void do_rnto(session_t *sess)$/;"	f	file:
+do_site	parse_ftpproto.c	/^static void do_site(session_t *sess)$/;"	f	file:
+do_site_chmod	parse_ftpproto.c	/^static void do_site_chmod(session_t *sess,char *arg)$/;"	f	file:
+do_site_umask	parse_ftpproto.c	/^static void do_site_umask(session_t *sess,char *arg)$/;"	f	file:
+do_size	parse_ftpproto.c	/^static void do_size(session_t *sess)$/;"	f	file:
+do_stat	parse_ftpproto.c	/^static void do_stat(session_t *sess)$/;"	f	file:
+do_stor	parse_ftpproto.c	/^static void do_stor(session_t *sess)$/;"	f	file:
+do_stru	parse_ftpproto.c	/^static void do_stru(session_t *sess){}$/;"	f	file:
+do_syst	parse_ftpproto.c	/^static void do_syst(session_t *sess)$/;"	f	file:
+do_type	parse_ftpproto.c	/^static void do_type(session_t *sess)$/;"	f	file:
+do_user	parse_ftpproto.c	/^static void do_user(session_t *sess)$/;"	f	file:
+dowload_max_rate	session.h	/^    unsigned int dowload_max_rate;$/;"	m	struct:session
+drop_ip_count	kftpd.c	/^unsigned int drop_ip_count(void *ip) $/;"	f
+endfree	memory_pool.c	/^static char* endfree;                       \/\/内存池水位线结束$/;"	v	file:
+freelist	memory_pool.c	/^static Obj* volatile freelist[_NFREELISTS]; \/\/自由链表$/;"	v	file:
+freelistlink	memory_pool.c	/^    union Obj* freelistlink;\/\/指向下一个内存块的指针$/;"	m	union:Obj	typeref:union:Obj::Obj	file:
+ftp_reply	reply.c	/^void ftp_reply(session_t *sess,int status,const char *text)$/;"	f
+ftp_reply_	reply.c	/^void ftp_reply_(session_t *sess,int status,const char *text)$/;"	f
+ftp_reply_str	reply.c	/^void ftp_reply_str(session_t *sess,const char*text)$/;"	f
+get_now_time_of_sec	reply.c	/^long get_now_time_of_sec()$/;"	f
+get_now_time_of_usec	reply.c	/^long get_now_time_of_usec()$/;"	f
+get_pasv_fd	parse_ftpproto.c	/^int get_pasv_fd(session_t *sess)$/;"	f
+get_port_fd	parse_ftpproto.c	/^int get_port_fd(session_t *sess)$/;"	f
+get_transport_fd	parse_ftpproto.c	/^static int get_transport_fd(session_t *sess)$/;"	f	file:
+getlocalip	net_connect.c	/^int getlocalip(char *ip) \/\/获取本地IP$/;"	f
+handle_child	parse_ftpproto.c	/^void handle_child(session_t *sess)$/;"	f
+handle_ip_count	kftpd.c	/^unsigned int handle_ip_count(void *ip) \/\/返回该IP的连接数$/;"	f
+handle_parent	parent_ipc.c	/^void handle_parent(session_t *sess)$/;"	f
+handle_sigchld	kftpd.c	/^void  handle_sigchld(int sig)$/;"	f
+handle_sigurg	parse_ftpproto.c	/^void handle_sigurg(int signal_num)$/;"	f
+hash	my_hash.c	/^struct hash$/;"	s	file:
+hash_add_entry	my_hash.c	/^void hash_add_entry(hash_t *hash,void *key,unsigned int key_size,void *value,unsigned int value_size)$/;"	f
+hash_alloc	my_hash.c	/^hash_t * hash_alloc(unsigned int buckets,hashfunc_t hash_func)$/;"	f
+hash_dealloc	my_hash.c	/^void hash_dealloc(hash_t *hash,unsigned int buckets)$/;"	f
+hash_free_entry	my_hash.c	/^void hash_free_entry(hash_t *hash,void *key,unsigned int key_size)$/;"	f
+hash_func	my_hash.c	/^    hashfunc_t hash_func; \/\/哈希函数$/;"	m	struct:hash	file:
+hash_get_bucket	my_hash.c	/^hash_node_t ** hash_get_bucket(hash_t *hash,void *key)$/;"	f
+hash_get_node_by_key	my_hash.c	/^hash_node_t *hash_get_node_by_key(hash_t *hash,void *key,unsigned int key_size)$/;"	f
+hash_ip_function	kftpd.c	/^unsigned int hash_ip_function(unsigned int buckets,void *key) \/\/桶的大小 关键码$/;"	f
+hash_lookuo_enty	my_hash.c	/^void* hash_lookuo_enty(hash_t *hash,void *key,unsigned int key_size)$/;"	f
+hash_node	my_hash.c	/^struct hash_node$/;"	s	file:
+hash_node_t	my_hash.h	/^typedef struct hash_node hash_node_t;$/;"	t	typeref:struct:hash_node
+hash_t	my_hash.h	/^typedef struct hash hash_t;$/;"	t	typeref:struct:hash
+hashfunc_t	my_hash.h	/^typedef unsigned int (*hashfunc_t)(unsigned int,void *); \/\/桶的大小 关键码$/;"	t
+heapSize	memory_pool.c	/^static size_t heapSize;                     \/\/内存池的总大小$/;"	v	file:
+init_session	session.c	/^void init_session(session_t *sess)$/;"	f
+ip_num_clients_hash	kftpd.h	/^static hash_t *ip_num_clients_hash;\/\/哈希表$/;"	v
+is_ascii	session.h	/^    int is_ascii;$/;"	m	struct:session
+isall_space	string_operate.c	/^int isall_space(const char *str)$/;"	f
+isdata_transfer	session.h	/^    int isdata_transfer;$/;"	m	struct:session
+key	my_hash.c	/^    void *key;$/;"	m	struct:hash_node	file:
+kftp_free	memory_pool.c	/^void kftp_free(void*p,size_t sz)$/;"	f
+kftp_malloc	memory_pool.c	/^void* kftp_malloc(size_t sz)$/;"	f
+kftpd_accept_timeout	config.c	/^ unsigned int kftpd_accept_timeout=60;$/;"	v
+kftpd_add_user_enable	config.c	/^ unsigned int kftpd_add_user_enable=0;$/;"	v
+kftpd_connect_timeout	config.c	/^ unsigned int kftpd_connect_timeout=60;$/;"	v
+kftpd_del_user_enable	config.c	/^ unsigned int kftpd_del_user_enable=0;$/;"	v
+kftpd_download_max_rate	config.c	/^ unsigned int kftpd_download_max_rate=204800;\/\/200k$/;"	v
+kftpd_listen_port	config.c	/^ unsigned int kftpd_listen_port=9001;$/;"	v
+kftpd_max_clients	config.c	/^ unsigned int kftpd_max_clients=200;$/;"	v
+kftpd_max_per_ip	config.c	/^ unsigned int kftpd_max_per_ip=50;$/;"	v
+kftpd_pasv_enable	config.c	/^ unsigned int kftpd_pasv_enable=1;$/;"	v
+kftpd_port_enable	config.c	/^ unsigned int kftpd_port_enable=1;$/;"	v
+kftpd_print_log	kftpd_log.c	/^void kftpd_print_log(unsigned int longlevel,char*str,char *file,const char*function,unsigned int line)$/;"	f
+kftpd_session_timeout	config.c	/^ unsigned int kftpd_session_timeout=300;$/;"	v
+kftpd_upload_max_rate	config.c	/^ unsigned int kftpd_upload_max_rate=102400; \/\/字节为单位 100k$/;"	v
+limit_rate	parse_ftpproto.c	/^static void limit_rate(session_t *sess,int nbytes,int isupload)$/;"	f	file:
+list_dir	parse_ftpproto.c	/^static void list_dir(session_t *sess)$/;"	f	file:
+load_add_user_conf	parse_config.c	/^void load_add_user_conf(const char*path)$/;"	f
+load_del_user_conf	parse_config.c	/^void load_del_user_conf(const char*path)$/;"	f
+load_kftpd_conf	parse_config.c	/^void load_kftpd_conf(const char*path)$/;"	f
+lock_file_read	reply.c	/^int lock_file_read(int fd)$/;"	f
+lock_file_write	reply.c	/^int lock_file_write(int fd)$/;"	f
+lock_internal	reply.c	/^static int lock_internal(int fd,int locktype)$/;"	f	file:
+main	kftpd.c	/^int main()$/;"	f
+minimize_privilege	parent_ipc.c	/^static void minimize_privilege()$/;"	f	file:
+nano_sleep	reply.c	/^void nano_sleep(double sleep_time)$/;"	f
+next	my_hash.c	/^    struct hash_node *next;$/;"	m	struct:hash_node	typeref:struct:hash_node::hash_node	file:
+nodes	my_hash.c	/^    hash_node_t **nodes;  \/\/链表中节点的地址$/;"	m	struct:hash	file:
+num_children	kftpd.h	/^static unsigned int num_children;   \/\/连接数$/;"	v
+num_clients	session.h	/^    unsigned int num_clients;$/;"	m	struct:session
+num_ip	session.h	/^    unsigned int num_ip;$/;"	m	struct:session
+online_client_ip	session.h	/^    char online_client_ip[20];$/;"	m	struct:session
+p_sess	kftpd.h	/^static session_t *p_sess;$/;"	v
+parent_fd	session.h	/^    int parent_fd; \/\/unix域的套接字$/;"	m	struct:session
+parseconf_load_setting	parse_config.c	/^void parseconf_load_setting(char* setting,int cur)$/;"	f
+pasv_active	parse_ftpproto.c	/^static int pasv_active(session_t *sess)$/;"	f	file:
+pasv_listenfd	session.h	/^    int pasv_listenfd;$/;"	m	struct:session
+pid_ip_hash	kftpd.h	/^static hash_t *pid_ip_hash;$/;"	v
+port_active	parse_ftpproto.c	/^static int port_active(session_t *sess)$/;"	f	file:
+port_addr	session.h	/^    struct sockaddr_in  *port_addr;$/;"	m	struct:session	typeref:struct:session::sockaddr_in
+prev	my_hash.c	/^    struct hash_node *prev; \/\/双向链表$/;"	m	struct:hash_node	typeref:struct:hash_node::hash_node	file:
+priv_get_cmd	ipc.c	/^void priv_get_cmd(int fd,char *cmd)$/;"	f
+priv_get_result	ipc.c	/^void priv_get_result(int fd,char *result)$/;"	f
+priv_send_cmd	ipc.c	/^void priv_send_cmd(int fd,char cmd)$/;"	f
+priv_send_result	ipc.c	/^void priv_send_result(int fd,char result)$/;"	f
+priv_sock_close	ipc.c	/^void priv_sock_close(session_t *sess)$/;"	f
+priv_sock_get_fd	ipc.c	/^void priv_sock_get_fd(int fd,int *descfd)$/;"	f
+priv_sock_get_int	ipc.c	/^void priv_sock_get_int(int fd,int *the_int)$/;"	f
+priv_sock_get_str	ipc.c	/^void priv_sock_get_str(int fd,char*str,unsigned int strlen)$/;"	f
+priv_sock_init	ipc.c	/^void priv_sock_init(session_t *sess)$/;"	f
+priv_sock_send_fd	ipc.c	/^void priv_sock_send_fd(int fd,int descfd)$/;"	f
+priv_sock_send_int	ipc.c	/^void priv_sock_send_int(int fd,int the_int)$/;"	f
+priv_sock_send_str	ipc.c	/^void priv_sock_send_str(int fd,const char*str,unsigned int strlen)$/;"	f
+priv_sock_set_child_context	ipc.c	/^void priv_sock_set_child_context(session_t *sess)$/;"	f
+priv_sock_set_parent_context	ipc.c	/^void priv_sock_set_parent_context(session_t *sess)$/;"	f
+privparent_pasv_accept	parent_ipc.c	/^static void privparent_pasv_accept(session_t *sess)$/;"	f	file:
+privparent_pasv_active	parent_ipc.c	/^static void privparent_pasv_active(session_t *sess)$/;"	f	file:
+privparent_pasv_listen	parent_ipc.c	/^static void privparent_pasv_listen(session_t *sess)$/;"	f	file:
+privparent_port_get_data_sock	parent_ipc.c	/^static void privparent_port_get_data_sock(session_t *sess)$/;"	f	file:
+read_timeout	net_connect.c	/^int read_timeout(int fd,unsigned int wait_seconds)$/;"	f
+readline	net_connect.c	/^ssize_t readline(int sockfd, void *buf, size_t maxline)$/;"	f
+readn	net_connect.c	/^ssize_t readn(int fd,void *buf,size_t count)$/;"	f
+recv_fd	reply.c	/^int recv_fd(const int sock_fd)$/;"	f
+recv_peek	net_connect.c	/^ssize_t recv_peek(int sockfd,void *buf,size_t len)$/;"	f
+restart_alarm	parse_ftpproto.c	/^static void restart_alarm(void)$/;"	f	file:
+restart_pos	session.h	/^    long long restart_pos;\/\/用于断点续传$/;"	m	struct:session
+rnfr_name	session.h	/^    char *rnfr_name;$/;"	m	struct:session
+rstart_handle_alarm_timeout	parse_ftpproto.c	/^void rstart_handle_alarm_timeout(int signal_num)$/;"	f
+send_fd	reply.c	/^void send_fd(int sock_fd,int fd)$/;"	f
+session	session.h	/^typedef struct session$/;"	s
+session_t	session.h	/^}session_t;$/;"	t	typeref:struct:session
+signal_handler	parse_ftpproto.c	/^typedef void (*signal_handler)(int);$/;"	t	file:
+start_alarm	parse_ftpproto.c	/^static void start_alarm()$/;"	f	file:
+start_handle_alarm_timeout	parse_ftpproto.c	/^void  start_handle_alarm_timeout(int signal_num)$/;"	f
+start_transfer_time_sec	session.h	/^    long start_transfer_time_sec;$/;"	m	struct:session
+start_transfer_time_usec	session.h	/^    long start_transfer_time_usec;$/;"	m	struct:session
+startfree	memory_pool.c	/^static char* startfree;                     \/\/内存池水位线开始$/;"	v	file:
+str_lower	string_operate.c	/^void str_lower(char *str)$/;"	f
+str_octal_to_uint	string_operate.c	/^unsigned int str_octal_to_uint(const char*str)$/;"	f
+str_split	string_operate.c	/^void str_split(char *str,char *cmd,char *arg,char c)$/;"	f
+str_to_longlong	string_operate.c	/^long long str_to_longlong(const char *str)$/;"	f
+str_trim_ctrl	string_operate.c	/^void str_trim_ctrl(char *str)$/;"	f
+str_upper	string_operate.c	/^void str_upper(char *str)$/;"	f
+tcp_client	parent_ipc.c	/^static int tcp_client(unsigned short port)$/;"	f	file:
+tcp_server	net_connect.c	/^int tcp_server(const char *ip,unsigned short port)$/;"	f
+uid	session.h	/^    uid_t uid;$/;"	m	struct:session
+unlock_file	reply.c	/^int unlock_file(int fd)$/;"	f
+upload_comm	parse_ftpproto.c	/^static void upload_comm(session_t *sess,int is_append)$/;"	f	file:
+upload_max_rate	session.h	/^    unsigned int upload_max_rate;$/;"	m	struct:session
+value	my_hash.c	/^    void *value;$/;"	m	struct:hash_node	file:
+write_timeout	net_connect.c	/^int write_timeout(int fd,unsigned int wait_seconds)$/;"	f
+writen	net_connect.c	/^ssize_t writen(int fd,const void *buf,size_t count)$/;"	f
